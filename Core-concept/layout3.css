@@ -1,0 +1,43 @@
+.container > div:nth-child(1n) {
+    background-color: #06d6a0;
+  }
+  
+  .container > div:nth-child(3n) {
+    background-color: #b21134;
+  }
+  
+  .container > div:nth-child(2n) {
+    background-color: #ef476f;
+  }
+  
+  .container > div:nth-child(4n) {
+    background-color: #222324;
+  }
+  .container > div:nth-child(5n) {
+    background-color: #81b918;
+  }
+  .container > div:nth-child(6n) {
+    background-color: #d606a9;
+  }
+  .container > div:nth-child(7n) {
+    background-color: #a3ff66;
+  }
+  .container > div:nth-child(8n) {
+    background-color: #ef476f;
+  }
+  .container > div:nth-child(9n) {
+    background-color: #290810;
+  }
+  .container > div:nth-child(10n) {
+    background-color: #1b570f;
+  }
+  .container{
+      display: grid;
+      height: 100vh;
+      grid-template-columns: repeat(5, 100px);
+      grid-template-rows: repeat(2, 100px);
+      grid-gap: 10px;
+      justify-content: center;
+      align-content: center;
+      /* justify-items:right; */
+  }
